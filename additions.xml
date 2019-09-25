@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Recorder -->
+  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="lineage" />
+</manifest>

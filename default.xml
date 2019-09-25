@@ -786,5 +786,6 @@
 
   <!-- CarbonROM -->
   <include name="carbon-default.xml" />
+  <include name="additions.xml" />
 
 </manifest>
