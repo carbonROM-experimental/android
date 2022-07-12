@@ -3,4 +3,7 @@
 
   <!-- Recorder -->
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="lineage" />
+
+  <!-- MindTheGapps -->
+  <project name="vendor_gapps" path="vendor/gapps" remote="MindTheGapps" />
 </manifest>
