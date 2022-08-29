@@ -1,6 +1,6 @@
 # CarbonROM Source
 
-Thanks for choosing CarbonROM!
+Thanks for choosing CarbonROM experimental!
 
 ## Getting Started
 
@@ -50,7 +50,7 @@ Move to the CarbonROM working directory and initialise the repo using the manife
 
 ```sh
 cd ~/carbon
-repo init -u https://github.com/CarbonROM/android.git -b cr-8.0 --git-lfs
+repo init -u https://github.com/carbonROM-experimental/android.git -b cr-8.0 --git-lfs
 repo sync -j8
 ```
 
@@ -91,63 +91,6 @@ make carbon -j$(nproc --all)
 make carbon -j12
 ```
 
-### Submitting Patches
-
-Patches are always welcome!  Please submit your patches via CarbonROM Gerrit!
-You can do this by using these commands:
-
-### Set up
-
-You need to set up your details. You only need to do this once.
-
-```sh
-git config --global review.review.carbonrom.org.username <Your username registered at CarbonROM gerrit>
-git config --global review.review.carbonrom.org.email <Your email registered at CarbonROM gerrit>
-```
-
-### Creating and uploading patch
-
-```sh
-cd ~/carbon
-. build/envsetup.sh
-repo start cr-8.0 .
-# make your changes and commit
-repo upload .
-```
-
-### GPG signing
-
-We will only allow GPG signed commits on our Gerrit/GitHub orgs, as well as require a signed push.
-
-You can set up signed commits by setting up the key accoridng to these directions on the [Git-SCM Site](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) and adding them to [Gerrit](http://review.carbonrom.org/#/settings/gpg-keys)
-
-You can enable the signed push with:
-
-```sh
-git config --global push.gpgSign if-asked
-```
-
-
-...and enable signing your commits with:
-
-```sh
-git config --global commit.gpgsign true
-```
-
-Note: "." meaning current directory
-For more help on using this tool, use this command: `repo help upload`
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in **one single commit**. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-To view the status of your and others' patches, visit [CarbonROM Code Review](http://review.carbonrom.org/)
-
-If you have any issues/questions please contact us in channel:
- #carbonrom       //General-related questions
- #carbonrom-dev   //Development-related questions
-
- server: irc.freenode.net
-
 ## Attention Themers
 
 You can find all CarbonROM Resources that need to be themed [here](https://github.com/CarbonROM/ThemeResources)
@@ -161,4 +104,3 @@ https://crowdin.com/project/carbonrom
 The available projects to translate will be updated when new things come into Carbon, so be sure to keep on checking the page.
 
 Many thanks to those who have helped translate the ROM!
-
