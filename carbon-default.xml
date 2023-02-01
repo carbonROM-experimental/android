@@ -26,6 +26,15 @@
            revision="refs/heads/lineage-17.1"
            sync-j="8" />
 
+  <remote name="pixel"
+           fetch="https://github.com/PixelExperience"
+           revision="ten"
+           review="gerrit.pixelexperience.org" />
+
+  <remote name="exp"
+           fetch="https://gitlab.com/roms-experimental"
+           revision="mint2" />
+
   <!-- FIRST: Remove unused/forked AOSP Projects -->
   <include name="remove.xml" />
 
