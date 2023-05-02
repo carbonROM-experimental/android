@@ -111,7 +111,7 @@
   <project path="packages/apps/ThemePicker" name="CarbonROM/android_packages_apps_ThemePicker" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/WallpaperPicker2" name="CarbonROM/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="carbon" />
 
-  <project path="packages/inputmethods/LatinIME" name="CarbonROM/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="carbon" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="carbon-exp" />
 
   <project path="packages/modules/NetworkStack" name="LineageOS/android_packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 
