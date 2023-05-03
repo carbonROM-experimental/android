@@ -1,0 +1,22 @@
+name: Test AmogOS-Rom/android_manifest repository
+
+on:
+  push:
+    branches: [ cr-8.0 ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install repo tool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git-core python3-pip wget
+          wget https://storage.googleapis.com/git-repo-downloads/repo && sudo mv repo /usr/bin/repo && sudo chmod a+x /usr/bin/repo
+      - name: Initialize and sync repo
+        run: |
+          repo init -u https://github.com/carbonROM-experimental/android.git
+          timeout 1m repo sync || true
+        timeout-minutes: 6
