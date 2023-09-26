@@ -7,7 +7,7 @@
 
   <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
 
-  <project path="build/make" name="android_build_make" groups="pdk" remote="carbon-exp">
+  <project path="build/make" name="CarbonROM/android_build_make" groups="pdk" remote="carbon">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -62,7 +62,7 @@
   <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" remote="lineage" />
   <project path="external/zlib" name="CarbonROM/android_external_zlib" groups="pdk" remote="carbon" />
 
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="carbon-exp" />
+  <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon-exp" />
   <project path="frameworks/hardware/interfaces" name="LineageOS/android_frameworks_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk" remote="lineage" />
@@ -70,7 +70,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="carbon-exp" />
   <project path="frameworks/opt/net/ims" name="CarbonROM/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/opt/net/voip" name="LineageOS/android_frameworks_opt_net_voip" groups="pdk" remote="lineage" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="carbon-exp" />
+  <project path="frameworks/opt/net/wifi" name="CarbonROM/android_frameworks_opt_net_wifi" groups="pdk" remote="carbon" />
   <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
   <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
 
@@ -113,7 +113,7 @@
   <project path="packages/apps/Traceur" name="CarbonROM/android_packages_apps_Traceur" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/WallpaperPicker2" name="CarbonROM/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="carbon" />
 
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="carbon-exp" />
+  <project path="packages/inputmethods/LatinIME" name="CarbonROM/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="carbon" />
 
   <project path="packages/modules/NetworkStack" name="LineageOS/android_packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 
@@ -122,7 +122,7 @@
   <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/TelephonyProvider" name="CarbonROM/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon-exp" />
+  <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
   <project path="prebuilts/clang/host/linux-x86" name="CarbonROM/android_prebuilts_clang_host_linux-x86" remote="carbon" />
@@ -132,7 +132,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
 
   <project path="system/apex" name="CarbonROM/android_system_apex" groups="pdk" remote="carbon" />
-  <project path="system/bt" name="android_system_bt" groups="pdk" remote="carbon-exp" />
+  <project path="system/bt" name="CarbonROM/android_system_bt" groups="pdk" remote="carbon" />
   <project path="system/bpf" name="CarbonROM/android_system_bpf" groups="pdk" remote="carbon" />
   <project path="system/ca-certificates" name="CarbonROM/android_system_ca-certificates" groups="pdk" remote="carbon" />
   <project path="system/connectivity/wificond" name="LineageOS/android_system_connectivity_wificond" groups="pdk" remote="lineage" />
