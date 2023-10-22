@@ -7,11 +7,6 @@
            revision="refs/heads/cr-8.0"
            sync-j="8" />
 
-  <remote  name="carbon-exp"
-           fetch="https://github.com/carbonROM-experimental"
-           revision="refs/heads/cr-8.0"
-           sync-j="8" />
-
   <remote  name="gh"
            fetch="https://github.com/"
            sync-c="true"
@@ -57,7 +52,7 @@
   <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
   <project path="packages/apps/CarbonSetupWizard" name="CarbonROM/android_packages_apps_CarbonSetupWizard" remote="carbon" />
 
-  <project path="vendor/carbon" name="android_vendor_carbon" remote="carbon-exp" />
+  <project path="vendor/carbon" name="carbonROM-experimental/android_vendor_carbon" remote="carbon" />
   <project path="vendor/themes" name="CarbonROM/android_vendor_themes" remote="carbon" />
 
   <!-- LineageOS Projects -->
