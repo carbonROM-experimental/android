@@ -7,7 +7,7 @@
 
   <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
 
-  <project path="build/make" name="CarbonROM/android_build_make" groups="pdk" remote="carbon">
+  <project path="build/make" name="carbonROM-experimental/android_build_make" groups="pdk" remote="carbon">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -32,10 +32,12 @@
   <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" remote="lineage" />
   <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="lineage" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
+  <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" remote="lineage" />
   <project path="external/freetype" name="CarbonROM/android_external_freetype" groups="pdk" remote="carbon" />
   <project path="external/icu" name="CarbonROM/android_external_icu" groups="pdk" remote="carbon" />
   <project path="external/libaom" name="LineageOS/android_external_libaom" groups="pdk" remote="lineage" />
   <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="lineage" />
+  <project path="external/libvpx" name="carbonROM-experimental/android_external_libvpx" groups="pdk" remote="carbon" />
   <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
@@ -58,11 +60,11 @@
   <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" clone-depth="1" revision="main" remote="lineage" />
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" clone-depth="1" revision="main" remote="lineage" />
   <project path="external/v8" name="LineageOS/android_external_v8" groups="pdk" remote="lineage" />
+  <project path="external/webp" name="carbonROM-experimental/android_external_webp" groups="pdk" remote="carbon" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
-  <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" remote="lineage" />
   <project path="external/zlib" name="CarbonROM/android_external_zlib" groups="pdk" remote="carbon" />
 
-  <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
+  <project path="frameworks/av" name="carbonROM-experimental/android_frameworks_av" groups="pdk" remote="carbon" />
   <project path="frameworks/base" name="carbonROM-experimental/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="frameworks/hardware/interfaces" name="LineageOS/android_frameworks_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk" remote="lineage" />
@@ -104,7 +106,7 @@
   <project path="packages/apps/Launcher3" name="carbonROM-experimental/android_packages_apps_Launcher3" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Messaging" name="CarbonROM/android_packages_apps_Messaging" groups="pdk-fs" remote="carbon" />
-  <project path="packages/apps/Nfc" name="CarbonROM/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="carbon" />
+  <project path="packages/apps/Nfc" name="carbonROM-experimental/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="carbon" />
   <project path="packages/apps/PermissionController" name="CarbonROM/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/apps/PhoneCommon" name="CarbonROM/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/apps/Settings" name="carbonROM-experimental/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
@@ -119,11 +121,11 @@
 
   <project path="packages/providers/CalendarProvider" name="LineageOS/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-  <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/providers/MediaProvider" name="carbonROM-experimental/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/TelephonyProvider" name="CarbonROM/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
   <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
-  <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/services/Telephony" name="carbonROM-experimental/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
   <project path="prebuilts/clang/host/linux-x86" name="CarbonROM/android_prebuilts_clang_host_linux-x86" remote="carbon" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
