@@ -20,3 +20,8 @@ jobs:
           repo init -u https://github.com/carbonROM-experimental/android.git
           timeout 1m repo sync || true
         timeout-minutes: 6
+      - name: Initialize and sync repo
+        run: |
+          repo init -u https://github.com/carbonROM-experimental/android.git -b cr-8.0-gerrit
+          timeout 1m repo sync || true
+        timeout-minutes: 6
