@@ -33,10 +33,11 @@
   <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="lineage" />
   <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
   <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" remote="lineage" />
-  <project path="external/freetype" name="CarbonROM/android_external_freetype" groups="pdk" remote="carbon" />
+  <project path="external/freetype" name="carbonROM-experimental/android_external_freetype" groups="pdk" remote="carbon" />
   <project path="external/icu" name="CarbonROM/android_external_icu" groups="pdk" remote="carbon" />
   <project path="external/libaom" name="LineageOS/android_external_libaom" groups="pdk" remote="lineage" />
   <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="lineage" />
+  <project path="external/libcups" name="carbonROM-experimental/android_external_libcups" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="external/libxml2" name="carbonROM-experimental/android_external_libxml2" groups="pdk" remote="carbon" />
   <project path="external/libvpx" name="carbonROM-experimental/android_external_libvpx" groups="pdk" remote="carbon" />
   <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="lineage" />
@@ -44,6 +45,7 @@
   <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="exp" />
   <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="pixel" />
+  <project path="external/pdfium" name="carbonROM-experimental/android_external_pdfium" remote="carbon" />
   <project path="external/okhttp" name="LineageOS/android_external_okhttp" groups="pdk" remote="lineage" />
   <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
   <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk" remote="lineage" />
@@ -96,9 +98,10 @@
 
   <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="lineage" />
 
-  <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/apps/Bluetooth" name="carbonROM-experimental/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/apps/Car/Settings" name="CarbonROM/android_packages_apps_Car_Settings" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="packages/apps/Camera2" name="carbonROM-experimental/android_packages_apps_Camera2" remote="carbon" />
   <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" groups="pdk-fs" remote="carbon" />
   <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
@@ -125,6 +128,7 @@
   <project path="packages/providers/MediaProvider" name="carbonROM-experimental/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/providers/TelephonyProvider" name="CarbonROM/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
+  <project path="packages/services/BuiltInPrintService" name="carbonROM-experimental/android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/services/Telecomm" name="carbonROM-experimental/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/services/Telephony" name="carbonROM-experimental/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
 
@@ -139,11 +143,11 @@
   <project path="system/bpf" name="CarbonROM/android_system_bpf" groups="pdk" remote="carbon" />
   <project path="system/ca-certificates" name="CarbonROM/android_system_ca-certificates" groups="pdk" remote="carbon" />
   <project path="system/connectivity/wificond" name="LineageOS/android_system_connectivity_wificond" groups="pdk" remote="lineage" />
-  <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
+  <project path="system/core" name="carbonROM-experimental/android_system_core" groups="pdk" remote="carbon" />
   <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" />
   <project path="system/libfmq" name="LineageOS/android_system_libfmq" groups="pdk" remote="lineage" />
   <project path="system/libhwbinder" name="LineageOS/android_system_libhwbinder" groups="pdk" remote="lineage" />
-  <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon" />
+  <project path="system/netd" name="carbonROM-experimental/android_system_netd" groups="pdk" remote="carbon" />
   <project path="system/nfc" name="CarbonROM/android_system_nfc" groups="pdk" remote="carbon" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="lineage" />
   <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
